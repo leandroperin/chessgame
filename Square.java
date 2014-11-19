@@ -55,7 +55,7 @@ public class Square extends JLabel {
                                     board.nextTurn(1);
                                     System.out.println(getBoardSquare(xPos,yPos));
                                 }
-                        if (peca == null)      
+                        if (peca == null || peca.eInimigo(board.getSelected().peca))      
                             if (board.getTurn() == 1){          
                                 System.out.println(board.getSelected());
                                 if (board.getSelected().peca.movimentoValido(board.getSelected()).contains(getBoardSquare(xPos,yPos))){ //refazer
