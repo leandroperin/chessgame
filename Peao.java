@@ -14,6 +14,9 @@ import java.util.Collection;
 //0 branca 1 preta 
 public class Peao extends Peca {
 	
+
+
+//OUTRO
 	String[][] tabuleiro;
 	int posicaoLinha;
 	int posicaoColuna;
